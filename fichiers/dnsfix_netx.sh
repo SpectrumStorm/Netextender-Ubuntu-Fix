@@ -15,3 +15,5 @@ touch /etc/resolv.conf
 echo "Création de resolv.conf (fichier simple)"
 cat /etc/resolv.bak > /etc/resolv.conf
 echo "Script terminé"
+echo "Lancement de NetExtender, vous pouvez désormais lancer via l'interface graphique"
+netExtenderGui &
