@@ -1,4 +1,5 @@
 #!/bin/bash
+#Script V1.1
 echo "Téléchargement des fichiers nécessaires"
 wget "https://github.com/SpectrumStorm/Netextender-Ubuntu-Fix/archive/master.zip"
 unzip master.zip
