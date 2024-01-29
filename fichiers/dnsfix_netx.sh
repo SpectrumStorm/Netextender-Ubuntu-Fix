@@ -4,8 +4,9 @@ echo "Téléchargement des fichiers nécessaires"
 wget "https://github.com/SpectrumStorm/Netextender-Ubuntu-Fix/archive/master.zip"
 unzip master.zip
 cd ./Netextender-Ubuntu-Fix-main/fichiers
-sudo tar -xvzf NetExtender.Linux-10.2.850.x86_64.tgz
-yes  | sudo ./netExtenderClient/install
+sudo tar -xvzf NetExtender.Linux.tgz
+cd netExtenderClient
+yes  | sudo ./install
 sudo apt update -y
 sudo apt install default-jre -y
 echo "Sauvegarde de votre fichier resolv.conf original sous /etc/resolv.bak"
