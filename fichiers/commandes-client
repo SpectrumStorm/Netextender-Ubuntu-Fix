@@ -1,0 +1,3 @@
+wget netx
+wget script
+chmod +x
